@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  proxy:
+    build: thomas-mcnutt-proxy/
+    ports:
+      - '80:3000'
